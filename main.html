@@ -8,30 +8,31 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<h1 style="text-align: center">HTML Assignment #3</h1>
-	<br><br>
-	<table class="middle" width="100%">
-		<tr>
-			<td>left</td>
-			<td style="text-align: center">center</td>
-			<td style="text-align: right">right</td>
-		</tr>
-		<tr>
-			<td>left</td>
-			<td style="text-align: center">center</td>
-			<td style="text-align: right">right</td>
-		</tr>
-		<tr>
-			<td>left</td>
-			<td style="text-align: center">center</td>
-			<td style="text-align: right">right</td>
-		</tr>
-	</table>
-	<br><br>
-	<table class="middle" width="100%">
+	    <h1>HTML Assignment #3</h1>
+
+    <!-- Table 1 -->
+    <table id="table-1" class="middle">
         <tr>
-            <td colspan="6">Merged Row (1st Row)</td>
+            <td id="t11">Cell 1</td>
+            <td id="t12">Cell 2</td>
+            <td id="t13" class="right">Cell 3</td>
+        </tr>
+        <tr class="center">
+            <td id="t21">Cell 4</td>
+            <td id="t22">Cell 5</td>
+            <td id="t23" class="right">Cell 6</td>
+        </tr>
+        <tr>
+            <td id="t31">Cell 7</td>
+            <td id="t32">Cell 8</td>
+            <td id="t33" class="right">Cell 9</td>
+        </tr>
+    </table>
+
+    <!-- Table 2 -->
+    <table id="table-2" class="middle">
+        <tr>
+            <td id="t21" colspan="6">Merged Row (1st Row)</td>
         </tr>
         <tr>
             <td>Cell 1</td>
@@ -74,9 +75,10 @@
             <td>Cell 30</td>
         </tr>
     </table>
-	<br><br>
-	<table width="100%" class="middle">
-        <tr style="background-color: green">
+
+    <!-- Table 3 -->
+    <table id="table-3" class="middle">
+        <tr class="green">
             <td>Green Row 1</td>
             <td>Green Row 2</td>
             <td>Green Row 3</td>
@@ -85,7 +87,7 @@
             <td>Row 2</td>
             <td id="t-image" colspan="2"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Sample Image"></td>
         </tr>
-        <tr style="background-color: blue">
+        <tr class="blue">
             <td>Blue Row 1</td>
             <td>Blue Row 2</td>
             <td>Blue Row 3</td>
